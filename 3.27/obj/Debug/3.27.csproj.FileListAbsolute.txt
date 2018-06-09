@@ -1,0 +1,12 @@
+D:\Programing\AaDS\3.27\bin\Debug\3.27.exe.config
+D:\Programing\AaDS\3.27\bin\Debug\3.27.exe
+D:\Programing\AaDS\3.27\bin\Debug\3.27.pdb
+D:\Programing\AaDS\3.27\bin\Debug\BL.dll
+D:\Programing\AaDS\3.27\bin\Debug\BL.pdb
+D:\Programing\AaDS\3.27\obj\Debug\3.27.csprojResolveAssemblyReference.cache
+D:\Programing\AaDS\3.27\obj\Debug\_3._27.Form1.resources
+D:\Programing\AaDS\3.27\obj\Debug\_3._27.Properties.Resources.resources
+D:\Programing\AaDS\3.27\obj\Debug\3.27.csproj.GenerateResource.Cache
+D:\Programing\AaDS\3.27\obj\Debug\3.27.csproj.CoreCompileInputs.cache
+D:\Programing\AaDS\3.27\obj\Debug\3.27.exe
+D:\Programing\AaDS\3.27\obj\Debug\3.27.pdb
