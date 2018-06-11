@@ -1,0 +1,12 @@
+D:\Programing\Git\AaDS\2.27\bin\Debug\2.27.exe.config
+D:\Programing\Git\AaDS\2.27\bin\Debug\2.27.exe
+D:\Programing\Git\AaDS\2.27\bin\Debug\2.27.pdb
+D:\Programing\Git\AaDS\2.27\obj\Debug\_2._27.Form1.resources
+D:\Programing\Git\AaDS\2.27\obj\Debug\_2._27.Properties.Resources.resources
+D:\Programing\Git\AaDS\2.27\obj\Debug\2.27.csproj.GenerateResource.Cache
+D:\Programing\Git\AaDS\2.27\obj\Debug\2.27.csproj.CoreCompileInputs.cache
+D:\Programing\Git\AaDS\2.27\obj\Debug\2.27.exe
+D:\Programing\Git\AaDS\2.27\obj\Debug\2.27.pdb
+D:\Programing\Git\AaDS\2.27\bin\Debug\BL.dll
+D:\Programing\Git\AaDS\2.27\bin\Debug\BL.pdb
+D:\Programing\Git\AaDS\2.27\obj\Debug\2.27.csprojResolveAssemblyReference.cache

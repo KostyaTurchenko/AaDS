@@ -4,3 +4,9 @@ D:\Programing\AaDS\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
 D:\Programing\AaDS\BL\obj\Debug\BL.dll
 D:\Programing\AaDS\BL\obj\Debug\BL.pdb
 D:\Programing\AaDS\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+D:\Programing\Git\AaDS\BL\bin\Debug\BL.dll
+D:\Programing\Git\AaDS\BL\bin\Debug\BL.pdb
+D:\Programing\Git\AaDS\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+D:\Programing\Git\AaDS\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+D:\Programing\Git\AaDS\BL\obj\Debug\BL.dll
+D:\Programing\Git\AaDS\BL\obj\Debug\BL.pdb
