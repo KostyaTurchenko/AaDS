@@ -17,16 +17,25 @@ namespace _3._24
         public Form1()
         {
             InitializeComponent();
+            openFileDialog1.InitialDirectory = Path.Combine(Application.StartupPath);
         }
 
+
         string[] students;
+        Queue myqueue;
+
         private void открытьToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 string path = openFileDialog1.FileName;
                 students = File.ReadAllLines(path);
-                label1.Text = File.ReadAllText(path);
+                myqueue = new Queue();
+                foreach(string student in students)
+                {
+                    myqueue.InQueue(student);
+                }
+                label1.Text = myqueue.Print();
             }
         }
 
@@ -34,11 +43,10 @@ namespace _3._24
         {
             if (textBox1.Text.Length != 0)
             {
-                var instance = new WorkWithOueue(students);
-                BL.Queue<string> std = instance.AddNewStudent(instance.FormQueue(), textBox1.Text);
-                label1.Text = std.Print();
+                myqueue.InQueueWithKeepingOfOrder(textBox1.Text);
+                label1.Text = myqueue.Print();
                 students = label1.Text.Split('\n');
-  
+
             }
         }
 
@@ -47,7 +55,7 @@ namespace _3._24
             if (saveFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 string path = saveFileDialog1.FileName;
-                //WorkWithOueue.SaveFile(students, path);
+                File.WriteAllLines(path, students);
             }
         }
     }

@@ -10,3 +10,15 @@ D:\Programing\AaDS\3.24\obj\Debug\3.24.csproj.GenerateResource.Cache
 D:\Programing\AaDS\3.24\obj\Debug\3.24.csproj.CoreCompileInputs.cache
 D:\Programing\AaDS\3.24\obj\Debug\3.24.exe
 D:\Programing\AaDS\3.24\obj\Debug\3.24.pdb
+D:\Programing\GitAtt3\AaDS\3.24\obj\Debug\3.24.csprojResolveAssemblyReference.cache
+D:\Programing\GitAtt3\AaDS\3.24\obj\Debug\_3._24.Form1.resources
+D:\Programing\GitAtt3\AaDS\3.24\obj\Debug\_3._24.Properties.Resources.resources
+D:\Programing\GitAtt3\AaDS\3.24\obj\Debug\3.24.csproj.GenerateResource.Cache
+D:\Programing\GitAtt3\AaDS\3.24\obj\Debug\3.24.csproj.CoreCompileInputs.cache
+D:\Programing\GitAtt3\AaDS\3.24\obj\Debug\3.24.exe
+D:\Programing\GitAtt3\AaDS\3.24\obj\Debug\3.24.pdb
+D:\Programing\GitAtt3\AaDS\3.24\bin\Debug\3.24.exe.config
+D:\Programing\GitAtt3\AaDS\3.24\bin\Debug\3.24.exe
+D:\Programing\GitAtt3\AaDS\3.24\bin\Debug\3.24.pdb
+D:\Programing\GitAtt3\AaDS\3.24\bin\Debug\BL.dll
+D:\Programing\GitAtt3\AaDS\3.24\bin\Debug\BL.pdb

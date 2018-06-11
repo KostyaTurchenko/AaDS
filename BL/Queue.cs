@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace BL
 {
-    public class Queue<T>
+    public class Queue
     {
-        Node<T> head;
-        Node<T> tail;
+        Node<string> head;
+        Node<string> tail;
 
         public int Count { get; private set; }
 
@@ -22,9 +22,9 @@ namespace BL
             return head == null;
         }
 
-        public void InQueue(T value)
+        public void InQueue(string value)
         {
-            var N = new Node<T>(value, null);
+            var N = new Node<string>(value, null);
             if (QueueIsEmpty())
             {
                 head = N; tail = N;
@@ -38,7 +38,44 @@ namespace BL
             Count++;
         }
 
-        public T OutQueue ()
+        public void InQueueWithKeepingOfOrder (string value)
+        {
+            var comperable_item = head;
+            if (string.Compare(value, comperable_item.Value) == -1)
+            {
+                var N = head;
+                head = new Node<string>(value, N);
+                Count++;
+                return;
+            }
+
+            
+            for (int i = 0; i < Count; i++)
+            {
+                if (comperable_item.Next == null)
+                {
+                    InQueue(value);
+                    Count++;
+                    return;
+                }
+                else if (string.Compare(value, comperable_item.Next.Value) == 1)
+                {
+                    comperable_item = comperable_item.Next;
+                    continue;
+                }
+
+                else
+                {
+                    var N = new Node<string>(value, comperable_item.Next);
+                    comperable_item.Next = N;
+                    Count++;
+                    return;
+                }
+                
+            }
+        }
+
+        public string OutQueue ()
         {
             var N = head;
             head = head.Next;
@@ -52,7 +89,7 @@ namespace BL
             string output;
             int L = 0;
             string[] str = new string[0];
-            Node<T> p = head;
+            Node<string> p = head;
             while (p != null)
             {
                 Array.Resize<string>(ref str, ++L);

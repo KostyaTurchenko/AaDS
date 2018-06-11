@@ -10,3 +10,9 @@ D:\Programing\Git\AaDS\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
 D:\Programing\Git\AaDS\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
 D:\Programing\Git\AaDS\BL\obj\Debug\BL.dll
 D:\Programing\Git\AaDS\BL\obj\Debug\BL.pdb
+D:\Programing\GitAtt3\AaDS\BL\bin\Debug\BL.dll
+D:\Programing\GitAtt3\AaDS\BL\bin\Debug\BL.pdb
+D:\Programing\GitAtt3\AaDS\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+D:\Programing\GitAtt3\AaDS\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+D:\Programing\GitAtt3\AaDS\BL\obj\Debug\BL.dll
+D:\Programing\GitAtt3\AaDS\BL\obj\Debug\BL.pdb

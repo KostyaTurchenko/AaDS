@@ -58,7 +58,6 @@
     <Compile Include="utils\RandomPlayers.cs" />
     <Compile Include="utils\RandomTeamList.cs" />
     <Compile Include="WorkWithBinary.cs" />
-    <Compile Include="WorkWithOueue.cs" />
     <Compile Include="WorkWithStack.cs" />
     <Compile Include="WorkWithTeams.cs" />
   </ItemGroup>
